@@ -1,0 +1,38 @@
+* {box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    -webkit-appearance: none;
+    font-family: 'Roboto', sans-serif;}
+
+#kontener{
+    height: 1000px; /*Potem zmienic */
+    width: 55%;
+    margin: auto;
+    border: 2px solid rgb(82, 82, 82);
+    box-shadow: 1px 7px 10px 3px #888888;}
+
+nav{width: 100%;
+display: flex;
+justify-content: space-around;
+align-items: center;
+border:2px solid rgb(82, 82, 82);
+position: fixed;
+height: 40px;
+background-color: #71c750;}
+
+a{font-weight: 600;
+color: #5e5e5e;
+text-decoration: none;
+transition: 0.5s;}
+
+a:hover{font-size: 20px;} /* NIE POTRAFIĘ ROBIĆ ANIMACJI Xd, WSZYSTKO SIĘ PRZESUWA */
+
+#name{
+   background-color:  #a2ed84;
+   height: 300px;
+   width: auto;
+}
+ 
+
+
