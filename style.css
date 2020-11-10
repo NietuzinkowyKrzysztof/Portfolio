@@ -26,7 +26,36 @@ color: #5e5e5e;
 text-decoration: none;
 transition: 0.5s;}
 
-a:hover{font-size: 20px;} /* NIE POTRAFIĘ ROBIĆ ANIMACJI Xd, WSZYSTKO SIĘ PRZESUWA */
+a:hover{
+    animation: nav 0.8s linear;
+} /* NIE POTRAFIĘ ROBIĆ ANIMACJI Xd, WSZYSTKO SIĘ PRZESUWA */
+
+@keyframes nav {
+    16.65% {
+        transform: translateY(8px);
+        -webkit-transform: translateY(8px);
+    }
+    33.3% {
+        transform: translateY(-6px);
+        -webkit-transform: translateY(-6px);
+    }
+    49.95% {
+        transform: translateY(4px);
+        -webkit-transform: translateY(4px);
+    }
+    66.6% {
+        transform: translateY(-2px);
+        -webkit-transform: translateY(-2px);
+    }
+    83.25% {
+        transform: translateY(1px);
+        -webkit-transform: translateY(1px);
+    }
+    100% {
+        transform: translateY(0);
+        -webkit-transform: translateY(0);
+    }
+}
 
 #name{
    background-color:  #a2ed84;
