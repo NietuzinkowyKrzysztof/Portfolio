@@ -1,3 +1,2 @@
 # Portfolio
-My portfolio
-I will start it soon
+My portfolio, I will continue it soon
